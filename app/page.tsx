@@ -458,7 +458,7 @@ const Page = () => {
       if (subtopic) {
         try {
           // Ensure API key is defined
-          const apiKey = "AIzaSyCZ6M1fAAtZB5_CFQ6kbDwy9gNgBnpbxbU";
+          const apiKey = "Your api key";
           
           const genAI = new GoogleGenerativeAI(apiKey);
           const model = genAI.getGenerativeModel({ model: "gemini-pro" });
